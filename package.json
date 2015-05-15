@@ -1,0 +1,13 @@
+{
+  "jspm": {
+    "directories": {
+      "lib": "lib"
+    },
+    "main": "dummyVis",
+    "format": "amd",
+    "dependencies": {
+      "d3": "github:mbostock/d3@^3.5.5",
+      "model": "github:curran/model@^0.2.2"
+    }
+  }
+}
