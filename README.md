@@ -1,5 +1,5 @@
 # dummyVis
-An example Chiasm plugin.
+An example [Chiasm](https://github.com/curran/chiasm) plugin demonstrating use of D3. See an older verion in action in this [example](http://bl.ocks.org/curran/raw/3f0b1128d74308fc8fe1/).
 
 This plugin project structure uses [JSPM](http://jspm.io/), an amazing package management and module loading system.
 
