@@ -56,8 +56,15 @@ jspm_packages
 node_modules
 ```
 
-Finally, to publish this Chiasm plugin to the world for consuption using JSPM, a Git tag was added with the command:
+Finally, to publish this Chiasm plugin to the world for consuption using JSPM, the files were committed to the Git repo, and a Git semver tag was added with the command:
 
 ```
-git tag -a "v0.0.1" -m "First release"
+git tag -a v0.0.1 -m "First release"
+git push --tags
+```
+
+Now the plugin is published, and someone can install it in their enrivonment using the following command:
+
+```
+jspm install dummyVis=github:curran/dummyVis
 ```
