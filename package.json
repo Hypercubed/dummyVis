@@ -1,9 +1,9 @@
 {
   "jspm": {
     "directories": {
-      "lib": "lib"
+      "lib": "."
     },
-    "main": "dummyVis",
+    "main": "lib/dummyVis.js",
     "format": "amd",
     "dependencies": {
       "d3": "github:mbostock/d3@^3.5.5",
